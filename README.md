@@ -56,16 +56,16 @@ npm run ios           # build, sync, open Xcode (macOS)
 
 `npm run sync` rebuilds the web bundle and copies it into both native projects.
 
-### App icons
+### App icons & splash
 
-Icons are generated into `public/` by:
+The logo is a vector redraw of the supplied artwork in `resources/make_brand.mjs`. It renders the master
+PNGs into `assets/` (icon, adaptive foreground/background, splash) and the web icons into `public/`.
 
 ```bash
-python3 resources/make_icons.py
+PUPPETEER_PATH=/path/to/puppeteer-core.js node resources/make_brand.mjs   # needs puppeteer-core + Chrome
+npx @capacitor/assets generate --iconBackgroundColor '#FA980B' --splashBackgroundColor '#121317' \
+  --splashBackgroundColorDark '#121317' --android --ios
 ```
-
-For native launcher icons, point `@capacitor/assets` (or Android Studio's Image Asset / Xcode's
-asset catalog) at `public/icon-1024.png`.
 
 ### iOS notes (from past setup)
 
