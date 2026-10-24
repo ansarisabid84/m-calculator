@@ -1,0 +1,57 @@
+Calc is a beautiful, fast calculator that does a lot more than add numbers. Standard and scientific modes, a live unit and currency converter, health calculators and everyday money tools — all in one clean, modern app. No ads. No sign-up. No clutter.
+
+CALCULATE YOUR WAY
+• See the answer as you type, before you even press equals
+• Tap any calculation to edit it. Move the caret, fix a number in the middle, and the answer updates live
+• Swipe the display or long-press backspace to delete quickly
+• Memory keys (MC, MR, M+, M−, MS) that remember between sessions
+• Calculation history: reuse a result, edit the original expression, or copy it
+• Your unfinished calculation is still there when you come back
+• One-tap copy and paste of results and expressions
+
+FULL SCIENTIFIC MODE
+Switch between Standard and Scientific with one tap — your calculation comes with you.
+• sin, cos, tan and their inverses, plus hyperbolic sinh, cosh and tanh
+• log, ln, 10ˣ, eˣ, square and cube roots, powers, factorial
+• Permutations (nPr), combinations (nCr), modulo, absolute value, reciprocal
+• π, e and τ constants, Ans (last answer), parentheses
+• Degrees or radians
+• Smart parsing: 2(3+4), 3π and 2sin30 all just work
+
+CONVERT ANYTHING
+• Length, weight, temperature, area, volume, speed, data and time
+• Live currency conversion for 30 currencies, with offline fallback rates
+• Number bases: decimal, hex, binary and octal
+• Swap units instantly
+
+HEALTH CALCULATORS
+• BMI with a clear visual gauge and category
+• Daily calorie needs (BMR and TDEE)
+• Ideal weight, daily water intake, pregnancy due date
+• Running pace and sleep-cycle planner
+
+EVERYDAY TOOLS
+• Tip and bill splitter
+• Discount and sale price
+• Loan EMI with total interest
+• GST / VAT: add or remove
+• Compound interest and SIP (monthly investment) calculator
+• Profit margin, fuel cost, electricity bill, unit-price comparison
+• Percentage calculator in every direction
+• Statistics: sum, average, median, min, max, range, standard deviation
+• Fraction simplifier, time add/subtract, date add/subtract
+• Age calculator, date difference, speed-distance-time, Roman numerals
+
+DESIGNED TO FEEL GREAT
+• Modern liquid-glass design with smooth animations
+• Light, dark or automatic theme
+• Large, comfortable keys that fill your screen — phones and tablets
+• Optional haptic feedback on every key press
+• Choose your decimal places and thousands separator
+
+PRIVATE BY DESIGN
+• No account, no ads, no tracking
+• Your history and settings stay on your device
+• The only network request is fetching public exchange rates for the currency converter
+
+Calc is the one calculator app you'll keep on your home screen. Download it and see.

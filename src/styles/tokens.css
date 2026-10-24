@@ -1,0 +1,124 @@
+/* tokens.css — "Liquid glass" design tokens.
+   A soft aurora backdrop sits behind translucent, blurred glass surfaces with
+   specular edge highlights. Light + dark via [data-theme]. */
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Backdrop */
+  --bg:            #0a0b14;
+  --aurora-1:      rgba(255, 138, 76, 0.38);
+  --aurora-2:      rgba(124, 92, 255, 0.42);
+  --aurora-3:      rgba(40, 190, 200, 0.30);
+
+  /* Glass */
+  --glass:         rgba(255, 255, 255, 0.075);
+  --glass-strong:  rgba(255, 255, 255, 0.12);
+  --glass-press:   rgba(255, 255, 255, 0.20);
+  --glass-edge:    rgba(255, 255, 255, 0.18);
+  --glass-edge-lo: rgba(255, 255, 255, 0.04);
+  --glass-blur:    blur(26px) saturate(180%);
+  --sheet-bg:      rgba(26, 27, 42, 0.78);
+
+  /* Legacy names still used by screens */
+  --surface:       var(--glass);
+  --surface-2:     rgba(255, 255, 255, 0.07);
+  --surface-3:     rgba(255, 255, 255, 0.12);
+  --hairline:      rgba(255, 255, 255, 0.14);
+  --hairline-soft: rgba(255, 255, 255, 0.08);
+
+  /* Text */
+  --text:          #f5f6fb;
+  --text-dim:      rgba(245, 246, 251, 0.66);
+  --text-faint:    rgba(245, 246, 251, 0.42);
+
+  /* Accent: warm coral → amber */
+  --accent:        #ff9a3d;
+  --accent-2:      #ff6a5c;
+  --accent-grad:   linear-gradient(135deg, #ffb347 0%, #ff6a5c 100%);
+  --accent-press:  #e8812a;
+  --accent-ink:    #2a1200;
+  --accent-glow:   rgba(255, 140, 70, 0.45);
+
+  /* Operators: cool aqua */
+  --op:            #6ee7d2;
+  --op-dim:        #3fa593;
+
+  --danger:        #ff7a6b;
+  --good:          #6ee7d2;
+  --warn:          #ffb347;
+
+  /* Readout */
+  --readout-bg:    rgba(8, 9, 18, 0.38);
+  --readout-text:  #ffffff;
+  --readout-ghost: rgba(255, 255, 255, 0.5);
+
+  /* Keys */
+  --key:           rgba(255, 255, 255, 0.10);
+  --key-press:     rgba(255, 255, 255, 0.22);
+  --key-fn:        rgba(255, 255, 255, 0.055);
+
+  --shadow-key:    0 4px 14px rgba(0, 0, 0, 0.22);
+  --shadow-lift:   0 18px 50px rgba(0, 0, 0, 0.45);
+  --specular:      inset 0 1px 0 rgba(255, 255, 255, 0.28), inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+  --radius:        26px;
+  --radius-key:    24px;
+  --radius-sm:     14px;
+
+  /* Type */
+  --font-display: 'Inter', -apple-system, 'SF Pro Display', system-ui, sans-serif;
+  --font-body:    'Inter', -apple-system, 'SF Pro Text', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --bg:            #eef0f8;
+  --aurora-1:      rgba(255, 170, 110, 0.55);
+  --aurora-2:      rgba(150, 130, 255, 0.45);
+  --aurora-3:      rgba(90, 210, 220, 0.42);
+
+  --glass:         rgba(255, 255, 255, 0.55);
+  --glass-strong:  rgba(255, 255, 255, 0.72);
+  --glass-press:   rgba(255, 255, 255, 0.95);
+  --glass-edge:    rgba(255, 255, 255, 0.95);
+  --glass-edge-lo: rgba(255, 255, 255, 0.35);
+  --sheet-bg:      rgba(246, 247, 253, 0.82);
+
+  --surface-2:     rgba(255, 255, 255, 0.55);
+  --surface-3:     rgba(255, 255, 255, 0.85);
+  --hairline:      rgba(30, 34, 70, 0.12);
+  --hairline-soft: rgba(30, 34, 70, 0.07);
+
+  --text:          #151729;
+  --text-dim:      rgba(21, 23, 41, 0.66);
+  --text-faint:    rgba(21, 23, 41, 0.42);
+
+  --accent:        #f07a1a;
+  --accent-2:      #e8453c;
+  --accent-grad:   linear-gradient(135deg, #ffa43a 0%, #f2523f 100%);
+  --accent-press:  #d4650d;
+  --accent-ink:    #ffffff;
+  --accent-glow:   rgba(240, 110, 40, 0.38);
+
+  --op:            #139b86;
+  --op-dim:        #5fbfb0;
+
+  --danger:        #d93f30;
+  --good:          #139b86;
+  --warn:          #c4720f;
+
+  --readout-bg:    rgba(255, 255, 255, 0.42);
+  --readout-text:  #151729;
+  --readout-ghost: rgba(21, 23, 41, 0.62);
+
+  --key:           rgba(255, 255, 255, 0.62);
+  --key-press:     rgba(255, 255, 255, 0.95);
+  --key-fn:        rgba(255, 255, 255, 0.34);
+
+  --shadow-key:    0 4px 14px rgba(60, 60, 120, 0.10);
+  --shadow-lift:   0 18px 50px rgba(60, 60, 130, 0.18);
+  --specular:      inset 0 1px 0 rgba(255, 255, 255, 0.95), inset 0 -1px 0 rgba(255, 255, 255, 0.4);
+}
